@@ -7,15 +7,15 @@ Vi lærer bort kun node, ikke express, eller angualar, mongodb
 - Hjemme: Sett opp node og npm. Få kjørt hello-world
 - 17:30: Kaffe og pause
 - 17:45: Teori m/livekoding
--- Hva er node.js?
--- I/O (lese og skrive fil)
--- Modules and exports
--- HTTP Client
--- Noe om asynkronitet (hva det er og hvorfor bra)
+	* Hva er node.js?
+	* I/O (lese og skrive fil)
+	* Modules and exports
+	* HTTP Client
+	* Noe om asynkronitet (hva det er og hvorfor bra)
 - 18:15: Hands-on!
--- Del ut og forklar oppgaver
--- Hjelp evt. folk å sette opp ting
--- Gå rundt og spør hvordan det går
+	* Del ut og forklar oppgaver
+	* Hjelp evt. folk å sette opp ting
+	* Gå rundt og spør hvordan det går
 - 19:30: Ferdig!
 	
 Vi kopierer noen fine oppgaver fra nodeschool, og gir dem til studentene
@@ -25,5 +25,5 @@ Vi kopierer noen fine oppgaver fra nodeschool, og gir dem til studentene
 - +++
 	
 Vi har livecoding:
-	Bruker nodemon to skjermer; en skjerm med kode og en annen som refresher nettleser
-	Vi starter med console.log, og legger på mer og mer funksjonalitet for å demonstrere node.js
+- Bruker nodemon to skjermer; en skjerm med kode og en annen som refresher nettleser
+- Vi starter med console.log, og legger på mer og mer funksjonalitet for å demonstrere node.js
