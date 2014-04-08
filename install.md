@@ -17,14 +17,13 @@ Installering uten
     http://nodejs.org
 
 ### Windows
+
+Lastes ned fra
+
     http://nodejs.org
 
-Eller prøv [Scoop](http://scoop.sh) (uprøvd av oss, men ser kult ut)
-
-    scoop install nodejs
-
 ### Linux
-Litt avhengig av hvilken distro du har. Sjekk etter din distro her
+Installeringen er litt avhengig av hvilken distro du har. Sjekk etter din distro her
     https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
     
 Generelt: Vær obs på at du ikke installerer en gammel versjon fra pakkesystemer (f.eks. apt-get). 
