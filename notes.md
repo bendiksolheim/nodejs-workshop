@@ -1,6 +1,6 @@
 TODO: 
-- Lag ferdig install-dok (Bendik)
-- Lag en hello-world i node som verifiserer at man har node og npm (har obskur avhengiget) (Bendik)
+x Lag ferdig install-dok (Bendik)
+x Lag en hello-world i node som verifiserer at man har node og npm (har obskur avhengiget) (Bendik)
 - Lag/kopier oppgaver med fasit og expected input/output (Holger)
 - Forbered slides for "hva er node?"
 	* Hva er en webserver? (Holger)
