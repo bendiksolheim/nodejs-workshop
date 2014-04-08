@@ -13,7 +13,7 @@ TODO:
 	* Asynonkronitet (Bendik)
 - Testkjør opplegget for å time tiden
 
-## Agenda:
+## Agenda 29. april
 - Hjemme: Sett opp node og npm. Få kjørt hello-world
 - 17:30: Kaffe og pause
 - 17:45: Teori og slides m/ livekoding
