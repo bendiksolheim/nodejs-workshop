@@ -1,0 +1,12 @@
+Hei!
+
+Du har meldt deg på Node.js-workshop. Før du kommer er det viktig at du har forberedt deg litt.
+Ta med egen pc, og installer Node.js på forhånd. En liten guide finnes på: https://github.com/bendiksolheim/nodejs-workshop/blob/gh-pages/install.md
+
+I løpet av workshopen skal vi lære hva Node.js er, og bli litt kjent med hvordan det fungerer.
+Til slutt skal vi skal bruke det til å lage en enkel webserver.
+
+Send oss mail hvis du har noen spørsmål. Ingen spørsmål er for dumme!
+
+Mvh
+Holger og Bendik
