@@ -1,6 +1,6 @@
 TODO: 
-- Lag ferdig install-dok (Bendik)
-- Lag en hello-world i node som verifiserer at man har node og npm (har obskur avhengiget) (Bendik)
+x Lag ferdig install-dok (Bendik)
+x Lag en hello-world i node som verifiserer at man har node og npm (har obskur avhengiget) (Bendik)
 - Lag/kopier oppgaver med fasit og expected input/output (Holger)
 - Forbered slides for "hva er node?"
 	* Hva er en webserver? (Holger)
@@ -13,7 +13,7 @@ TODO:
 	* Asynonkronitet (Bendik)
 - Testkjør opplegget for å time tiden
 
-## Agenda:
+## Agenda 29. april
 - Hjemme: Sett opp node og npm. Få kjørt hello-world
 - 17:30: Kaffe og pause
 - 17:45: Teori og slides m/ livekoding

@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-workshop",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Nothing to see here, move along.",
+  "main": "hello.js",
+  "dependencies": {
+    "colors": "~0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bekkopen/nodejs-workshop.git"
+  },
+  "author": "Holger Ludvigsen, Bendik Solheim",
+  "homepage": "https://github.com/bekkopen/nodejs-workshop"
+}
