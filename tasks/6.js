@@ -13,6 +13,7 @@ Lag en værtjeneste! Bruk REST-tjenesten på openweathermap.org for å hente været 
    - Et ikon for været
    - Søkefelt for hvilken by været skal vises for
    - Vis embedded Google Maps med lokasjonen til byen
+   - Gjør noe annet du synes er kult!
 
 Hint: For å få været i Oslo, åpne http://api.openweathermap.org/data/2.5/weather?q=Oslo,no
 Hint: Bruk require('request') for å kalle en annen tjeneste
