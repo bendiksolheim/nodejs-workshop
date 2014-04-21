@@ -32,7 +32,7 @@ Vi kopierer noen fine oppgaver fra nodeschool, og gir dem til studentene
 - Fibonaccitall nr X
 - Filserver
 - Hent noe JSON over REST og bruk
-- Lag noe kreativt som "aldri" blir ferdig
+- Lag noe kreativt som "aldri" blir ferdig (quiz?)
 - +++
 	
 Vi har livecoding:
