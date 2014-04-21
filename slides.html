@@ -14,11 +14,14 @@
 
 		h1 {
 			font-size: 8em;
+			line-height: 100%;
 		}
 
 		h2 {
 			font-size: 4.2em;
 			-webkit-margin-before: .5em;
+			-webkit-margin-after: .5em;
+			line-height: 100%;
 		}
 
 		h3 {
@@ -31,11 +34,14 @@
 		}
 
 		.big-background {
-			background-size: 50%;
+			background-size: 75% !important;
+			background-repeat: no-repeat;
+			background-position: center;
 		}
 
 		.remark-slide-content ul {
-			list-style: none;
+			/*list-style: none;*/
+			text-align: left;
 		}
 
 		.remark-position {
@@ -56,17 +62,55 @@
 <body>
 	<textarea id="source">
 layout: true
-class: middle, center
+class: center
 
 ---
 
-# Node.js
+class: big-background
+
+background-image: url('img/nodejs-light.jpg')
+
+---
+
+## Webserver
+
+---
+
+## Hva er Node.js?
+
+- Plattform for å kjøre Javascript
+- Chrome V8
+
+???
+
+- Kort fortalt en plattform for å kjøre Javascript-kode.
+- Tradisjonelt kjøres Javascript i nettleseren.
+
+---
+
+class: middle
+
+## Asynkront
+
+???
+
+- Ett stikkord som beskriver hele Node.js: asynkronitet
+- Forklar at tradisjonelt kjøres linje for linje blablabla...
+- En tradisjonell webserver er synkron
+	- Request kommer inn
+	- Server henter noe fra databasen (venter på svar..)
+	- Bygger nettside basert på data (venter på svar..)
+	- Respons sendes til nettleseren
+- Node.js er asynkron
+	- I stedet for å vente på svar sier Node.js i fra til koden din når dataene er klar
+	- I mens kan koden din gjøre andre oppgaver
+
 	</textarea>
-	<script src="remark-0.5.9.min.js" type="text/javascript"></script>
+	<script src="remark-latest.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		var slideshow = remark.create({
 			ratio: '4:3',
-			highlightLanguage: 'java',
+			highlightLanguage: 'javascript',
 			highlightStyle: 'solarized_light'
 		});
 	</script>
