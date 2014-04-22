@@ -16,14 +16,20 @@ Lag en værtjeneste! Bruk REST-tjenesten på openweathermap.org for å hente været 
    - Gjør noe annet du synes er kult!
 
 Hint: For å få været i Oslo, åpne http://api.openweathermap.org/data/2.5/weather?q=Oslo,no
-Hint: Bruk require('request') for å kalle en annen tjeneste
+Hint: Bruk requestLib for å kalle en annen tjeneste. Den må først installeres med "npm install request".
 
 */
 
 var http = require('http');
 var url = require('url');
+var requestLib = require("request");
 
 http.createServer(function(request, response) {
+  if (request.url.indexOf("favicon") != -1) {
+    response.end();
+	return;
+  }
+
   response.writeHead(200, {'Content-Type': 'text/html'});
   
   response.write("<h1>V&aelig;ret!</h1>");
@@ -31,8 +37,6 @@ http.createServer(function(request, response) {
   response.write("<img src='http://openweathermap.org/img/w/01d.png'/>");
 
   // Din kode her
-  
-  response.end();
   
 }).listen(8080, '127.0.0.1');
 
