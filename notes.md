@@ -7,10 +7,10 @@ x Lag en hello-world i node som verifiserer at man har node og npm (har obskur a
 	* Historien til Node (Bendik)
 - Forbered livekoding (med slides)
 	* Console.log + response.write (Holger)
-	* I/O (Holger)
 	* Modules og require (Holger)
+	* I/O (Holger)
 	* HTTP Client (Bendik)
-	* Asynonkronitet (Bendik)
+	* Asynonkronitet og callbacks (Bendik)
 - Testkjør opplegget for å time tiden
 
 ## Agenda 29. april
