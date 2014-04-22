@@ -9,7 +9,7 @@ Fasit
 var http = require('http');
 var url = require('url');
 var fs = require("fs");
-var modul = require('./4-modul.js');
+var modul = require('./fasit-4-modul.js');
 
 http.createServer(function(request, response) {
   var filepath = url.parse(request.url, true).pathname;
