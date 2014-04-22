@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>The Great Debate</title>
+	<title>Node.js</title>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<style type="text/css">
@@ -36,7 +36,11 @@
 		.big-background {
 			background-size: 75% !important;
 			background-repeat: no-repeat;
-			background-position: center;
+			background-position: 50% 20%;
+		}
+
+		.big-background h2 {
+			margin-top: -250px;
 		}
 
 		.remark-slide-content ul {
@@ -66,7 +70,7 @@ class: center
 
 ---
 
-class: big-background
+class: big-background, bottom
 
 background-image: url('img/nodejs-light.jpg')
 
@@ -80,20 +84,27 @@ background-image: url('img/nodejs-light.jpg')
 
 ---
 
+class: middle
+
 ### Eksempel (F12)
 
-- http://example.com/ (HTML)
-- http://time.jsontest.com/ (REST/JSON)
+http://example.com/ (HTML)
+
+http://time.jsontest.com/ (REST/JSON)
 
 ---
 
-## Hva er Node.js?
+class: middle
 
+### Hva er Node.js?
+- "Neste generasjons webserver"
 - Plattform for å kjøre Javascript
 - Chrome V8
 
 ???
 
+- Tradisjonelle webservere forholder seg veldig til filsystemet
+- Node.js helt motsatt - koder hele webserveren rundt det å svare på requests
 - Kort fortalt en plattform for å kjøre Javascript-kode.
 - Tradisjonelt kjøres Javascript i nettleseren.
 
@@ -102,6 +113,8 @@ background-image: url('img/nodejs-light.jpg')
 class: middle
 
 ## Asynkront
+
+(Fint bilde av Node.js event loop)
 
 ???
 
@@ -120,6 +133,12 @@ class: middle
 
 class: middle
 
+## Livekoding!
+
+---
+
+class: middle
+
 ## Oppgaver
 
 http://nodejs.org/api/
@@ -128,7 +147,7 @@ http://nodejs.org/api/
 	<script src="remark-latest.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		var slideshow = remark.create({
-			ratio: '4:3',
+			ratio: '16:9',
 			highlightLanguage: 'javascript',
 			highlightStyle: 'solarized_light'
 		});
