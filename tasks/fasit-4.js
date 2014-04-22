@@ -8,7 +8,7 @@ Fasit
 
 var http = require('http');
 var url = require('url');
-var modul = require('./4-fasit-modul.js');
+var modul = require('./fasit-4-modul.js');
 
 http.createServer(function(request, response) {
   
