@@ -4,10 +4,10 @@ Oppgave 2
 
 Skriv "Hei <navn>"
 
-1. Løs oppgaven
+1. LÃ¸s oppgaven
 2. Restart node
-3. Åpne http://localhost:8080?navn=Holger
-4. Se at det står "Hei Holger"
+3. Ã…pne http://localhost:8080?navn=Holger
+4. Se at det stÃ¥r "Hei Holger"
 
 Hint: Det inkluderte biblioteket "url" har en metode som heter "parse"
 

@@ -4,14 +4,14 @@ Oppgave 3
 
 Skriv det n-te fibonacci-tallet
 
-1. Løs oppgaven
+1. LÃ¸s oppgaven
 2. Restart node
-3. Åpne http://localhost:8080?n=8
-4. Se at det står 21
-5. Åpne http://localhost:8080?n=50
-6. Se at det står 12586269025
+3. Ã…pne http://localhost:8080?n=8
+4. Se at det stÃ¥r 21
+5. Ã…pne http://localhost:8080?n=50
+6. Se at det stÃ¥r 12586269025
 
-Hint: response.write() tar kun streng som parameter. Tall må konverteres til med metoden toString. F.eks: foo.toString()
+Hint: response.write() tar kun streng som parameter. Tall mÃ¥ konverteres til med metoden toString. F.eks: foo.toString()
 
 */
 

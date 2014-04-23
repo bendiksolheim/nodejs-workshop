@@ -4,10 +4,10 @@ Oppgave 1
 
 Skriv "Hello World!"
 
-1. Løs oppgaven
+1. LÃ¸s oppgaven
 2. Start node
-3. Åpne http://localhost:8080
-4. Se at det står "Hello World!"
+3. Ã…pne http://localhost:8080
+4. Se at det stÃ¥r "Hello World!"
 
 */
 

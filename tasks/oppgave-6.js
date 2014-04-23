@@ -2,21 +2,21 @@
 
 Oppgave 6
 
-Lag en værtjeneste! Bruk REST-tjenesten på openweathermap.org for å hente været i Oslo som JSON. 
+Lag en vÃ¦rtjeneste! Bruk REST-tjenesten pÃ¥ openweathermap.org for Ã¥ hente vÃ¦ret i Oslo som JSON. 
 
-1. Løs oppgaven
+1. LÃ¸s oppgaven
 2. Restart node
-3. Åpne http://localhost:8080
-4. Se nyttig info om været: (i økende vanskelighetsgrad)
-   - En tekststreng som beskriver været
+3. Ã…pne http://localhost:8080
+4. Se nyttig info om vÃ¦ret: (i Ã¸kende vanskelighetsgrad)
+   - En tekststreng som beskriver vÃ¦ret
    - Temperaturen i Celsius
-   - Et ikon for været
-   - Søkefelt for hvilken by været skal vises for
+   - Et ikon for vÃ¦ret
+   - SÃ¸kefelt for hvilken by vÃ¦ret skal vises for
    - Vis embedded Google Maps med lokasjonen til byen
-   - Gjør noe annet du synes er kult!
+   - GjÃ¸r noe annet du synes er kult!
 
-Hint: For å få været i Oslo, åpne http://api.openweathermap.org/data/2.5/weather?q=Oslo,no
-Hint: Bruk requestLib for å kalle en annen tjeneste. Den må først installeres med "npm install request".
+Hint: For Ã¥ fÃ¥ vÃ¦ret i Oslo, Ã¥pne http://api.openweathermap.org/data/2.5/weather?q=Oslo,no&units=metric
+Hint: Bruk requestLib for Ã¥ kalle en annen tjeneste. Den mÃ¥ fÃ¸rst installeres med "npm install request".
 
 */
 

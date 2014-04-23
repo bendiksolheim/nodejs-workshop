@@ -2,13 +2,13 @@
 
 Oppgave 5
 
-Lag en webserver! Send filene i mappen "files" ved å bruke I/O.
+Lag en webserver! Send filene i mappen "files" ved Ã¥ bruke I/O.
 
-1. Løs oppgaven
+1. LÃ¸s oppgaven
 2. Restart node
-3. Åpne http://localhost:8080/index.html
+3. Ã…pne http://localhost:8080/index.html
 4. Se at html-filen "index.html" i mappen "files" sendes tilbake til brukeren
-5. Se at bildet også vises
+5. Se at bildet ogsÃ¥ vises
 
 */
 
