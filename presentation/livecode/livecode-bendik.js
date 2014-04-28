@@ -85,8 +85,8 @@ http.createServer(function(request, response) {
 		if (err) {
 			return response.end(500);
 		}
-
-		response.writeHead(200, {'Content-Type': getResponse.contentType});
+		
+		response.writeHead(200, {'Content-Type': getResponse.headers['content-type']});
 		response.write(getBody);
 		response.end();
 	});
